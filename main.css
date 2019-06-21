@@ -14,12 +14,13 @@ body {
   float: left;
   margin: 1.2em 0 0 2em;
   font-weight: bolder;
+  font-size: 1.2rem;
 }
 
 .nav {
   line-height: 40px;
   margin: 1.2em;
-  position: absolute;
+  position: fixed;
   right: 0;
 }
 
@@ -48,6 +49,18 @@ body {
 .social-media ul li {
   list-style: none;
   padding-top: 1em;
+}
+
+.social-media ul li a {
+  color: #000;
+}
+
+.social-media ul li a:hover {
+  color: #808080;
+}
+
+.social-media ul li i {
+  font-size: 1.4rem;
 }
 
 .side-bar {
