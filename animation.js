@@ -10,7 +10,7 @@ TweenMax.to(".overlay", 2, {
   ease: Expo.easeInOut
 });
 
-TweenMax.from(".logo", 1, {
+TweenMax.from(".navbar-brand", 1, {
   delay: 2.4,
   opacity: 0,
   y: 20,
@@ -18,7 +18,7 @@ TweenMax.from(".logo", 1, {
 });
 
 TweenMax.staggerFrom(
-  ".nav ul li",
+  ".navbar-collapse ul li",
   1,
   {
     delay: 2.4,
