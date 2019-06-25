@@ -9,6 +9,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#logo {
+  color: #000;
+  font-weight: bold;
+}
+
 .social-media {
   position: absolute;
   right: 3em;
@@ -30,7 +35,7 @@ body {
 }
 
 .social-media ul li i {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .side-bar {
@@ -40,6 +45,7 @@ body {
   transform: rotate(90deg);
   letter-spacing: 0.5em;
   left: -4em;
+  font-weight: bold;
 }
 
 .overlay {
@@ -75,8 +81,13 @@ body {
 /* Landing Page Main Content */
 
 #showcase {
-  width: 90em;
-  margin: 5% auto;
-  height: 70vh;
-  background-color: #8f8e8d;
+  margin-top: 5%;
+}
+
+#right-side {
+  background: url(./assets/Alex_2019.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(100%);
 }

@@ -18,13 +18,15 @@
     <title>Alex.is()</title>
   </head>
   <body>
+    <!-- Overlay -->
     <div class="overlay">
       <h1>MEET ALEX</h1>
     </div>
 
+    <!-- Navbar -->
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
-        <a class="navbar-brand" href="#">Alex.is()</a>
+        <a id="logo" class="navbar-brand" href="#">Alex.is()</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -56,7 +58,9 @@
         </div>
       </nav>
     </div>
+    <!-- Navbar End -->
 
+    <!-- Social icons -->
     <div class="social-media">
       <ul>
         <li>
@@ -93,36 +97,139 @@
         </li>
       </ul>
     </div>
+    <!-- Social icons End -->
+    <!-- Scroll Indicator -->
     <div class="side-bar">
       <span>SCROLL FOR MORE</span>
     </div>
+    <!-- Scroll Indicator End -->
 
-    <section id="showcase">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-4">
-            <div class="showcase-left">
-              <h1>Alex.is()</h1>
-              <p>
+    <!-- Landing Page Showcase Section -->
+    <div class="container">
+      <section id="showcase">
+        <div class="container">
+          <div class="row">
+            <!-- Left Side of Showcase -->
+            <div class="col-md-8 col-sm-8">
+              <h1 class="pl-3">Alex.is()</h1>
+              <p class="pl-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloremque illo quo fugiat minima rem accusamus inventore
                 laborum sint, sequi earum deserunt sapiente vel quaerat sit
                 error. Dicta a unde alias.
               </p>
+              <button
+                id="download-cv-button"
+                type="button"
+                class="btn btn-outline-dark m-3"
+              >
+                Download CV
+              </button>
+              <!-- Grid System for Skills -->
+              <div class="container mt-5">
+                  <p class="font-weight-bold">Main Skills</p>
+                  <div class="row">
+                    <div class="col-sm">
+                      <p class="font-weight-light">
+                        Frontend development
+                      </p>
+                    </div>
+                    <div class="col-sm">
+                      <p class="font-weight-light">
+                        Javascript, CSS, HTML
+                      </p>
+                    </div>
+                    <div class="col-sm">
+                      <p class="font-weight-light">
+                        Graphic design, Storytelling
+                      </p>
+                    </div>
+                    <div class="col-sm">
+                      <p class="font-weight-light">
+                          UI / UX design
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <p class="font-weight-bold">Tools</p>
+                  <div class="row">
+                    <div class="col-sm">
+                      <p class="font-weight-light">
+                        Bootstrap
+                      </p>
+                    </div>
+                    <div class="col-sm">
+                      <p class="font-weight-light">
+                        Sass/Less
+                      </p>
+                    </div>
+                    <div class="col-sm">
+                      <p class="font-weight-light">
+                        npm
+                      </p>
+                    </div>
+                    <div class="col-sm">
+                      <p class="font-weight-light">
+                        Github
+                      </p>
+                    </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm">
+                        <p class="font-weight-light">
+                          Adobe XD
+                        </p>
+                      </div>
+                      <div class="col-sm">
+                        <p class="font-weight-light">
+                          Node.js
+                        </p>
+                      </div>
+                      <div class="col-sm">
+                        <p class="font-weight-light">
+                          SVG
+                        </p>
+                      </div>
+                      <div class="col-sm">
+                        <p class="font-weight-light">
+                          Visual Studio Code
+                        </p>
+                      </div>
+                      </div>
+                      <div class="row">
+                      <div class="col-sm">
+                        <p class="font-weight-light">
+                          Pencil and Paper
+                        </p>
+                      </div>
+                        <div class="col-sm">
+                          <p class="font-weight-light">
+                            React
+                          </p>
+                        </div>
+                        <div class="col-sm">
+                          <p class="font-weight-light">
+                            GSAP
+                          </p>
+                        </div>
+                        <div class="col-sm">
+                          <p class="font-weight-light">
+                            jQuery
+                          </p>
+                        </div>
+                      </div>
+                  </div>
             </div>
-            <button type="button" class="btn btn-outline-dark">
-              Download CV
-            </button>
-          </div>
-          <div class="col-md-8 col-sm-8">
-            <div class="showcase-right">
-              <h1>Skills</h1>
-              <h1>Tools</h1>
+            <!-- Right Side of Showcase -->
+            <div id="right-side" class="col-md-4 col-sm-4">
+              <div class="showcase-right"></div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+    <!-- Landing Page Showcase Section End -->
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
